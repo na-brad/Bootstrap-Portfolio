@@ -23,6 +23,7 @@ img{
     width:468px;
     height:320px;
     
+    
 }
 .navbar{
     position:fixed;
@@ -31,14 +32,22 @@ img{
     background-color:black;
     width:100%;
 }
+#relative{
+    position:relative;
+}
+.navbar-nav{
+    position:absolute;
+    right:15px;
+    flex-direction:row !important;
+    display:flex;
+}
 
 #name{
     margin-left:7%;
     color:white;
 }
-.navbar-nav{
-    margin-left:72%;
-}
+
+
 #row1{
     margin-top:7%;
     margin-bottom:2%;
@@ -63,6 +72,10 @@ footer {
 #last{
     margin-bottom:10%;
 }
+#brad{
+    width:100%;
+    height:auto;
+}
 .project{
     position:absolute;
     top:85%;
@@ -72,4 +85,15 @@ footer {
 }
 button{
     margin-bottom:10%;
+}
+@media only screen and (max-width:991px){
+body{
+    padding-top:120px;
+}
+a{
+margin-left:20px;
+}
+.portfolio,.project{
+    width:350px;
+}
 }
