@@ -59,9 +59,7 @@ p,h2,label {
     font-weight:bold;
 }
 
-h4{
-    color:white;
-}
+
 footer {
     position: fixed;
     left: 0;
@@ -90,7 +88,7 @@ footer {
 }
 .links{
     font-weight:bold;
-    font-family: unset;
+    font-family: unset !important;
 }
 button{
     margin-bottom:10%;
@@ -105,4 +103,7 @@ margin-left:20px;
 .portfolio,.project{
     width:350px;
 }
+}
+h4{
+    color:white;
 }
